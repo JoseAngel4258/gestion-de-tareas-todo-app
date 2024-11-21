@@ -1,0 +1,47 @@
+.manualWrapper {
+  margin-top: 100px;
+  padding: 2rem;
+}
+
+.manualHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.manualImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.imageWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imageItem {
+  width: 30%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.imageItem p {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .imageItem {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .imageItem {
+    width: 100%;
+  }
+}
